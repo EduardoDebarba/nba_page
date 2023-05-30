@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Lato", sans-serif;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  main {
+    padding-right: 20rem;
+    padding-left: 20rem;
+  }
+
+  h2{
+    text-align: center;
+    font-size: 3.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    height: 3rem;
+    padding: 4rem;
+    color: #fff;
+    position: sticky;
+    top: 0;
+}
+
+header img{
+    width: 7rem;
+}
+
+.about-team, .about-arena, .about-mascot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    height: 100vh;
+}
+
+.about-team{
+    margin-top: 10rem;
+}
+
+.about-team img{
+    width: 35%;
+}
+
+.about-team p, .about-mascot p, .about-arena p{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    line-height: 4rem;
+    text-align: justify;
+}
+
+.about-arena img, .about-mascot img{
+    width: 35%;
+    border-radius: 10px;
+    height: 60rem;
+}
+
+.about-titles div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5rem;
+    margin-top: 3rem;
+}
+
+.card-title{
+    background-color: rgb(232, 236, 234);
+    box-shadow: 0px 5px 10px #00000056;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding: 2rem;
+    flex-direction: column;
+    width: 15%;
+}
+
+.card-title img{
+    width: 100%;
+}
+
+.card-title p{
+    font-size: 2.5rem;
+}
+
+.about-titles{
+    margin-bottom: 10rem;
+}
+
+footer {
+    color: white;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+  }
+
+
+
+
+
+
+
+
+
+

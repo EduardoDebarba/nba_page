@@ -55,6 +55,22 @@ a {
   color: white;
 }
 
+.main-nba{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7rem;
+  margin-bottom: 10rem;
+}
+
+.text-about-nba p{
+  margin-bottom: 2rem;
+}
+
+.text-about-nba h2{
+  margin-bottom: 2rem;
+}
+
 .nba {
   display: flex;
   flex-direction: column;

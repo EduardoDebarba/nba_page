@@ -113,6 +113,39 @@ footer {
     margin-top: 10rem;
   }
 
+  @media (min-width: 649px) and (max-width: 1224px) {
+  }
+
+  @media (max-width: 650px) {
+    
+     .about-titles{
+        display: none;
+    }
+
+    main {
+        padding-right: 5rem;
+        padding-left: 5rem;
+      }
+
+    .about-team, .about-arena{
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .about-team img{
+        width: 65%;
+    }
+
+    .about-arena img{
+        width: 100%;
+        order: 2;
+    }
+
+
+
+
+  }
+
 
 
 
